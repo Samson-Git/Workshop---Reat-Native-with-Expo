@@ -15,7 +15,7 @@ The `title` must be received from the [props](https://docs.expo.io/versions/v37.
 Example :
 
 ```tsx
-function TopBar(props : string) {
+function TopBar(props : any) {
   return (/* CONTENT */);
 }
 ```
