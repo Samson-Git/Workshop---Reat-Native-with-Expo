@@ -90,11 +90,18 @@ TIPS:
 
 If you add too many coin, can you see them all ? Maybe with a [ScrollView](https://docs.expo.io/versions/latest/react-native/scrollview/) it will be better.
 
-## Last step : AsyncStorage
+## Step 5 : AsyncStorage
 
 You must have noticed that if we restart the application, we lose all the data. So find a way to save the data when adding a coin to the list and restore the data when launching the application.
 
 You will find all the information you need to complete this exercise on this [page](https://reactnative.dev/docs/asyncstorage).
+
+## Last step : Get coins data from an API
+
+We need now to get some real data from an API.
+
+In this exercice, we will use this [API](https://www.coinapi.io). You will need to register on this site to get a free API Key.
+
 
 ## Authors
 - [Camille Samson](https://github.com/Samson-Git)
