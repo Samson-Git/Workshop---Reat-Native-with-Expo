@@ -96,11 +96,14 @@ You must have noticed that if we restart the application, we lose all the data. 
 
 You will find all the information you need to complete this exercise on this [page](https://reactnative.dev/docs/asyncstorage).
 
-## Last step : Get coins data from an API
-
-We need now to get some real data from an API.
+## Last step : Get data from an API
 
 In this exercice, we will use this [API](https://www.coinapi.io). You will need to register on this site to get a free API Key.
+
+When you add a coin, you must use the price returned in USD by the API of the chosen coin. You should take a look at the [doc](https://docs.coinapi.io/#list-all-assets)
+
+For exemple:
+
 
 
 ## Authors
