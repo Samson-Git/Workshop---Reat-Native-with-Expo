@@ -6,7 +6,7 @@ All the installation required to do the exercises are detailed in the [SETUP](./
 
 ## Step 1: `TopBar` component
 
-In `App.tsx`, create a component that will display the title of the app (who manage also the status bar).
+In `App.tsx`, create a component that will display the title of the app (which manage also the status bar).
 
 The `title` must be received from the [props](https://docs.expo.io/versions/v37.0.0/react-native/props/) and be at the center of the view.
 
@@ -40,7 +40,7 @@ Here is the data who need to be display :
 const [dataCoins, setDataCoins] = React.useState([{name: 'BTC', value: '10000'}, {name: 'ETH', value: '600'}]);
 ``` 
 
-We should just call the component `ListCoins` and provide him the data in your `app` component.
+You should just call the component `ListCoins` and provide him the data in your `app` component.
 
 Example:
 
@@ -57,7 +57,7 @@ export default function App() {
 }
 ```
 
-- `dataCoins` is a const variable but you can change his value with `setDataCoins` 
+- `dataCoins` is a const variable but you can change its value with `setDataCoins` 
 - `dataCoins` is an array of objects
 
 TIPS:
@@ -66,7 +66,7 @@ You should take a look to the [map](https://reactjs.org/docs/lists-and-keys.html
 
 ## Step 3: function `addCoinToList`
 
-Now try to create a method `addCoinToList` who can add a coin to the list when you click on the button 'Add coin'. You should create two input (one for the type and one for the value).
+Now try to create a method `addCoinToList` who can add a coin to the list when you click on the button 'Add coin'. You should create two inputs (one for the type and one for the value).
 
 Each input must be reset when you add a coin to the list.
 
@@ -88,7 +88,7 @@ Exemple of TouchableOpacity :
 
 TIPS:
 
-If you add too many coin, can you see them all ? Maybe with a [ScrollView](https://docs.expo.io/versions/latest/react-native/scrollview/) it will be better.
+If you add too many coins, can you see them all ? Maybe with a [ScrollView](https://docs.expo.io/versions/latest/react-native/scrollview/) it will be better.
 
 ## Step 5 : AsyncStorage
 
@@ -100,9 +100,9 @@ You will find all the information you need to complete this exercise on this [pa
 
 Many mobile apps need to get some resources from a API. In our case, we will use this [API](https://www.coinapi.io). You will need to register on this site to get a free API Key.
 
-When you add a coin, you must use the USD price(`price_usd`) given by the API of the chosen coin to calculate the final price. You should take a look at the [doc](https://docs.coinapi.io/#list-all-assets) of the API to see how to get data from it.
+When you add a coin, you must use the USD price(`price_usd`) given by the API (of the chosen coin) to calculate the final price. You should take a look at the [doc](https://docs.coinapi.io/#list-all-assets) of the API to see how to get data from it.
 
-Here is the [fetch](https://docs.expo.io/versions/v37.0.0/react-native/network/) method in react native to get data from a API. The method we will use in this exercise is the `GET` method.
+Here is the [fetch](https://docs.expo.io/versions/v37.0.0/react-native/network/) method in react native to get data from an API. The method we will use in this exercise is the `GET` method.
 
 For example, the API will return a list of object :
 
@@ -137,7 +137,7 @@ In order to calculate the purchase price of a coin, you will need to divide the 
 ## Bonus
 
 You're done ? Congratulation! Now add a select menu for all the coin given by the API. It will be way better than just an text input to add a coin.
-The power of react native? It has plenty of module ready to use 😉
+The power of react native? It has plenty of modules ready to use 😉
 
 ## Authors
 
