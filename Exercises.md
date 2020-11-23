@@ -90,7 +90,7 @@ TIPS:
 
 If you add too many coins, can you see them all ? Maybe with a [ScrollView](https://docs.expo.io/versions/latest/react-native/scrollview/) it will be better.
 
-## Step 5 : AsyncStorage
+## Step 4 : AsyncStorage
 
 You must have noticed that if we restart the application, we lose all the data. So find a way to save the data when adding a coin to the list and restore the data when launching the application.
 
